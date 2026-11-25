@@ -6,6 +6,8 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>Cadastro de Animais</h1>
+    
     <form action="salvar_animais.php" method="post">
         Nome: <br>
         <input type="text" name="nome"><br>

@@ -6,6 +6,8 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>Cadastro de Funcionario</h1>
+    
     <form action="salvar_.php" method="post">
         Nome: <br>
         <input type="text" name="nome"><br>
