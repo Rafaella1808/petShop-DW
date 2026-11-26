@@ -8,7 +8,7 @@
 <body>
     <h1>Cadastro de Funcionario</h1>
     
-    <form action="salvar_.php" method="post">
+    <form action="salvar_funcionario.php" method="post">
         Nome: <br>
         <input type="text" name="nome"><br>
         
@@ -20,7 +20,8 @@
 
         Senha: <br>
         <input type="passaword" name="senha"><br>
-
+ 
+        <a href="principal.php">Voltar</a>
 
         <input type="submit" value="Cadastrar">
     </form>

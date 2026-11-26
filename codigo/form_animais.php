@@ -27,6 +27,10 @@
          Foto: <br>
         <input type="file" name="foto"><br>
 
+        <a href="principal.php">Voltar</a>
+
+        
+
 
         <input type="submit" value="Cadastrar">
     </form>

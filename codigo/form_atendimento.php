@@ -74,6 +74,9 @@
 
         <input type="submit" value="Cadastrar">
 
+
+        <a href="principal.php">Voltar</a>
+
     </form>
 </body>
 </html>

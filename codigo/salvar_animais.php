@@ -6,7 +6,8 @@ $especie = $_POST['especie'];
 $raca = $_POST['raca'];
 $idade = $_POST['idade'];
 $sexo = $_POST['sexo'];
-$foto = $_POST['foto'];
+
+
 
 $nome_arquivo = $_FILES['foto']['name'];
 $caminho_temporario = $_FILES['foto']['tmp_name'];

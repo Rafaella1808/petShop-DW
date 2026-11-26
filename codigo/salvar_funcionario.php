@@ -11,7 +11,7 @@ $sql = "INSERT INTO funcionario(nome, cargo, email, senha)
 VALUES (?, ?, ?, ?)";
 $comando = mysqli_prepare($conexao, $sql);  
 
-mysqli_stmt_bind_param($comando, "ssss", $nome, $cargo, $email, $senha,);
+mysqli_stmt_bind_param($comando, "ssss", $nome, $cargo, $email, $senha);
 mysqli_stmt_execute($comando);
 
 header("Location: form_funcionario.php");
