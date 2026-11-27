@@ -1,8 +1,3 @@
-<?php 
-require_once "../verifica_sessao.php";
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,7 +26,7 @@ require_once "../verifica_sessao.php";
             <td>EDITAR</td>
         </tr>
         <?php
-        require_once "../conexao.php";
+        require_once "conexao.php";
         
         $sql = "SELECT * FROM animais";
         

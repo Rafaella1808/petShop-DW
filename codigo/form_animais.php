@@ -50,13 +50,17 @@
         Idade: <br>
         <input type="text" name="idade"><br>
 
-         Sexo: <br>
-        <input type="text" name="sexo"><br>
+        Sexo: <br>
+     <input type="radio" name="sexo" value="Feminino"> Feminino
+    <br>
+
+    <input type="radio" name="sexo" value="Masculino"> Masculino 
+    <br>
 
          Foto: <br>
         <input type="file" name="foto"><br>
 
-        <a href="principal.php">Voltar</a>
+        <a href="tela_inicial.php">Voltar</a>
 
         
 

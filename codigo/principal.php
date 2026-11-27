@@ -8,13 +8,10 @@
 <body>
     <h1>Seja Bem-Vindo ao nosso PetShop!</h1>
 
-    <a href="form_funcionario.php"> Funcionario</a> <br>
-    <a href="form_cliente.php"> Cliente</a> <br>
-    <a href="form_animais.php"> Animais</a> <br>
-     <a href="form_atendimento.php">Atendimento</a> <br>
+    <h2> Você já possui um Cadastro como funcionário?</h2>
+<a href="form_funcionario.php"> Não tenho cadastro.</a> <br>
+<a href="index.php"> Já sou cadastrado.</a> <br> <br>
 
 
-
-    
 </body>
 </html>

@@ -23,7 +23,7 @@
         $_SESSION['nome'] = $nome;
         $_SESSION['idfuncionario'] = $idfuncionario;
         
-        header("Location: principal.php");
+        header("Location: tela_inicial.php");
     }
     else {
         header("Location: index.php?erro=login&email=$email");

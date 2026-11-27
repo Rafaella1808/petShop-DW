@@ -21,7 +21,7 @@
         Endereço: <br>
          <input type="text" name="endereco"><br>
 
-          <a href="principal.php">Voltar</a>
+          <a href="tela_inicial.php">Voltar</a>
 
         <input type="submit" value="Cadastrar">
     </form>

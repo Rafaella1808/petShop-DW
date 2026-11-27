@@ -15,8 +15,8 @@
         <input type="text" name="senha"> <br>
 
         <input type="submit" value="Logar">
-    </form>
+    </form> <br>
 
-    <a href="form_funcionario.php">Não tenho cadastro.</a>
+    <a href="principal.php">Voltar</a>
 </body>
 </html>

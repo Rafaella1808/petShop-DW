@@ -64,7 +64,20 @@
         <br><br>
 
         Servico: <br>
-        <input type="text" name="servico"><br>
+        <input type="checkbox" name="servico" value="Banho"> Banho
+    <br>
+
+    <input type="checkbox" name="servico" value="Tosa"> Tosa
+    <br>
+
+    <input type="checkbox" name="servico" value="Vacinação"> Vacinação
+    <br>
+
+    <input type="checkbox" name="servico" value="Consulta"> Consulta
+    <br>
+
+    <input type="checkbox" name="servico" value="Hospedagem"> Hospedagem
+    <br> <br>
 
         Data: <br>
         <input type="date" name="data"><br>
@@ -75,7 +88,7 @@
         <input type="submit" value="Cadastrar">
 
 
-        <a href="principal.php">Voltar</a>
+        <a href="tela_inicial.php">Voltar</a>
 
     </form>
 </body>
