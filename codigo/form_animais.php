@@ -8,7 +8,36 @@
 <body>
     <h1>Cadastro de Animais</h1>
     
-    <form action="salvar_animais.php" method="post">
+    <form action="salvar_animais.php" method="post" enctype="multipart/form-data">
+        
+    Cliente:
+        <br>
+        <select name="idcliente">
+
+            <?php
+            require_once "conexao.php";
+
+            $sql = "SELECT * FROM cliente";
+
+            $comando = mysqli_prepare($conexao, $sql);
+
+            mysqli_stmt_execute($comando);
+
+            $resultados = mysqli_stmt_get_result($comando);
+
+            while ($linha = mysqli_fetch_array($resultados)) {
+
+                $idcliente = $linha['idcliente'];
+                $nome = $linha['nome'];
+
+                echo "<option value='$idcliente'>$nome</option>";
+            }
+            ?>
+
+        </select>
+        <br><br>
+
+    
         Nome: <br>
         <input type="text" name="nome"><br>
         
